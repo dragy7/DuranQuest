@@ -1,5 +1,12 @@
 package com.company.days;
 
+/**
+ * enum uchovava dny v tydnu
+ * kazdy den ma nazev a info.
+ * @author stepan.dragoun
+ * @version 0.1a
+ * @since java 16
+ */
 public enum Day {
     PONDELI("Pondělí", "Máma: 'Tomáááááááááášííííííííííííííííííí!!!!!!!! OOOOOOOOOVLLLLLLLLLLAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAČČČČČČČČČČČČČČČČČČČČ A KAFEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!'"),
     UTERY("Úterý", "Máma: 'Vstávej Tomáši, musíš mi udělat kafe, nebo ti zabavím počítač.'"),
@@ -15,10 +22,18 @@ public enum Day {
         this.info = info;
     }
 
+    /**
+     *
+     * @return vrací název dne
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     *
+     * @return vrací info dne
+     */
     public String getInfo() {
         return info;
     }

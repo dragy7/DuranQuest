@@ -4,6 +4,14 @@ import com.company.items.Food;
 import com.company.items.Potion;
 import com.company.map.GameLocation;
 
+/**
+ * třída pro vytvoření neptřatel
+ * @author Štěpán Dragoun
+ * @version 0.1a
+ * @since java 16
+ *
+ *
+ */
 public class Enemy implements Entity {
 
 
